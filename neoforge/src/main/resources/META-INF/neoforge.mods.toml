@@ -1,0 +1,43 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "GNU GPL 3.0"
+
+[[mods]]
+modId = "ledit"
+version = "${version}"
+displayName = "LEDIt"
+authors = "CrystakNeko"
+description = '''
+Led your Minecraft
+'''
+#logoFile = ""
+
+[[dependencies.ledit]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ledit]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.ledit]]
+modId = "architectury"
+type = "required"
+versionRange = "[13.0.8,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.ledit]]
+modId = "cloth-config"
+type = "required"
+versionRange = "[15,)"
+ordering = "NONE"
+side = "CLIENT"
+
