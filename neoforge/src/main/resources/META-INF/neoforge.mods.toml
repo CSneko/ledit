@@ -11,7 +11,7 @@ authors = "CrystakNeko"
 description = '''
 Led your Minecraft
 '''
-#logoFile = ""
+logoFile = "assets/ledit/icon.png"
 
 [[dependencies.ledit]]
 modId = "neoforge"
