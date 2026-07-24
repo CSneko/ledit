@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.cneko.ledit.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ToastMixin",
+    "AdvancementToastAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

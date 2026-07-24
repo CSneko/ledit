@@ -1,0 +1,23 @@
+{
+  "config.ledit.title": "LEDIt 配置",
+  "config.ledit.category.wled": "WLED 设置",
+  "config.ledit.wledAddress": "WLED 设备地址",
+  "config.ledit.wledAddress.tooltip": "WLED 设备的 IP 地址或主机名",
+  "config.ledit.wledPort": "WLED 端口",
+  "config.ledit.wledPort.tooltip": "WLED 设备的网络端口（1-65535）",
+  "config.ledit.ledCount": "LED 数量",
+  "config.ledit.ledCount.tooltip": "连接到 WLED 设备的 LED 数量",
+  "config.ledit.targetFPS": "目标帧率",
+  "config.ledit.targetFPS.tooltip": "每秒更新次数（基于挂钟时间）。\n60 = 与典型渲染帧率同步。E1.31 可处理任意速率。\n动画按帧推进——帧率越高，动画越流畅。",
+  "config.ledit.transitionTicks": "过渡时间",
+  "config.ledit.transitionTicks.tooltip": "生物群系颜色过渡的刻数（20 刻 = 1 秒）。\n0 = 即时变化，60 = 平滑的 3 秒混合。",
+  "config.ledit.brightness": "亮度",
+  "config.ledit.brightness.tooltip": "最大 LED 亮度，0-255",
+  "config.ledit.category.transport": "传输协议",
+  "config.ledit.useE131": "使用 E1.31 (sACN)",
+  "config.ledit.useE131.tooltip": "使用基于 UDP 的 E1.31/sACN 协议以获得更低的延迟和更高的帧率。\n禁用时，将改用 JSON HTTP API。",
+  "config.ledit.e131Port": "E1.31 端口",
+  "config.ledit.e131Port.tooltip": "E1.31 数据的 UDP 端口（默认：5568）",
+  "config.ledit.e131Universe": "E1.31 宇宙",
+  "config.ledit.e131Universe.tooltip": "在 WLED 中配置的 DMX 宇宙编号（1-63999）"
+}

@@ -1,0 +1,23 @@
+{
+  "config.ledit.title": "LEDIt Configuration",
+  "config.ledit.category.wled": "WLED Settings",
+  "config.ledit.wledAddress": "WLED Device Address",
+  "config.ledit.wledAddress.tooltip": "IP address or hostname of the WLED device",
+  "config.ledit.wledPort": "WLED Port",
+  "config.ledit.wledPort.tooltip": "Network port of the WLED device (1-65535)",
+  "config.ledit.ledCount": "LED Count",
+  "config.ledit.ledCount.tooltip": "Number of LEDs connected to the WLED device",
+  "config.ledit.targetFPS": "Target FPS",
+  "config.ledit.targetFPS.tooltip": "Updates per second (wall-clock based).\n60 = synced to typical render FPS.  E1.31 handles any rate.\nAnimation advances per frame — higher FPS = smoother animation.",
+  "config.ledit.transitionTicks": "Transition Time",
+  "config.ledit.transitionTicks.tooltip": "Ticks for biome color transition (20 ticks = 1 second).\n0 = instant change, 60 = smooth 3-second blend.",
+  "config.ledit.brightness": "Brightness",
+  "config.ledit.brightness.tooltip": "Maximum LED brightness, 0-255",
+  "config.ledit.category.transport": "Transport",
+  "config.ledit.useE131": "Use E1.31 (sACN)",
+  "config.ledit.useE131.tooltip": "Use E1.31/sACN over UDP for lower latency and higher FPS.\nWhen disabled, the JSON HTTP API is used instead.",
+  "config.ledit.e131Port": "E1.31 Port",
+  "config.ledit.e131Port.tooltip": "UDP port for E1.31 data (default: 5568)",
+  "config.ledit.e131Universe": "E1.31 Universe",
+  "config.ledit.e131Universe.tooltip": "DMX universe number configured in WLED (1-63999)"
+}
