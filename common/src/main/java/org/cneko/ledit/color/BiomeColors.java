@@ -1,7 +1,7 @@
 package org.cneko.ledit.color;
 
 import net.minecraft.core.Holder;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.biome.Biome;
 
@@ -25,11 +25,10 @@ public final class BiomeColors {
      */
     public static BiomePalette getPalette(Player player) {
         Holder<Biome> holder = player.level().getBiome(player.blockPosition());
-        Optional<ResourceLocation> key = holder.unwrapKey().map(k -> k.location());
+        Optional<Identifier> key = holder.unwrapKey().map(k -> k.identifier());
 
         // Try built-in biome colors first
         Biome biome = holder.value();
-        int skyColor = biome.getSkyColor();
         int foliageColor = biome.getFoliageColor();
 
         // For biomes with meaningful foliage, use it as the primary color source
@@ -46,7 +45,7 @@ public final class BiomeColors {
      * Manual palette mapping for specific biomes. Returns null if no match,
      * allowing fallback to built-in color extraction.
      */
-    private static BiomePalette getPaletteByKey(ResourceLocation id, Biome biome) {
+    private static BiomePalette getPaletteByKey(Identifier id, Biome biome) {
         String path = id.getPath();
         String ns = id.getNamespace();
 

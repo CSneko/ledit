@@ -27,11 +27,11 @@
 
 | Dependency | Version |
 |------------|---------|
-| Minecraft | 1.21.1 |
-| Fabric Loader | 0.16+ or NeoForge 21.1+ |
-| Architectury API | 13.0.8+ |
-| Cloth Config API | 15.0+ |
-| ModMenu (Fabric) | 11.0+ |
+| Minecraft | 1.21.11 |
+| Fabric Loader | 0.20+ |
+| Architectury API | 19.0.1+ |
+| Cloth Config API | 21.11+ |
+| ModMenu (Fabric) | 17.0+ |
 | Fabric API (Fabric) | * |
 
 ### Setup
@@ -108,11 +108,11 @@ Death Screen → Damage Flash → Achievement → Fire → Cave → Biome
 
 | 依赖 | 版本 |
 |------|------|
-| Minecraft | 1.21.1 |
-| Fabric Loader | 0.16+ 或 NeoForge 21.1+ |
-| Architectury API | 13.0.8+ |
-| Cloth Config API | 15.0+ |
-| ModMenu (Fabric) | 11.0+ |
+| Minecraft | 1.21.11 |
+| Fabric Loader | 0.20+ |
+| Architectury API | 19.0.1+ |
+| Cloth Config API | 21.11+ |
+| ModMenu (Fabric) | 17.0+ |
 | Fabric API (Fabric) | * |
 
 ### 使用方法

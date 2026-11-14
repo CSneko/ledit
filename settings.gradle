@@ -11,4 +11,5 @@ rootProject.name = 'ledit'
 
 include 'common'
 include 'fabric'
-include 'neoforge'
+// NeoForge is not ported to 1.21.11 yet; re-enable together with enabled_platforms in gradle.properties.
+// include 'neoforge'
